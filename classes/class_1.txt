@@ -1,7 +1,7 @@
 Class: Menu
 
 Attributes:
-meals (string)
+meals (array)
 prices (integer)
 birthdaySpecials (datetime)
 allergens (array)
