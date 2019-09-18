@@ -1,0 +1,13 @@
+Class: Kitchen
+
+Attributes:
+stoveOn (boolean)
+itemsInFridge (array)
+numberOfStaff (integer)
+sinkFull (boolean)
+
+Methods:
+emptyFridge (changes the itemsInFridge attribute)
+turnOffBurner (changes the stoveOn attribute)
+fireHeadChef (changes the numberOfStaff attribute -1)
+washDishes (changes the sinkFull attribute)
