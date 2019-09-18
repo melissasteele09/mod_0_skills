@@ -1,0 +1,13 @@
+Class: Menu
+
+Attributes:
+meals (string)
+prices (integer)
+birthdaySpecials (datetime)
+allergens (array)
+
+Methods
+listHappyHour (uses the prices attribute)
+discountMeal (uses the birthdaySpecials attribute)
+customerAllergyConcern (uses the allergens attribute)
+whatsInOrder (uses the meals attribute)
