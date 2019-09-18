@@ -1,0 +1,27 @@
+Class: Kitchen
+
+Attributes:
+stoveOn (boolean)
+itemsInFridge (array)
+numberOfStaff (integer)
+sinkFull (boolean)
+
+Methods:
+emptyFridge (changes the itemsInFridge attribute)
+turnOffBurner (changes the stoveOn attribute)
+fireHeadChef (changes the numberOfStaff attribute -1)
+washDishes (changes the sinkFull attribute)
+
+Object: Panzano Kitchen
+
+Attributes:
+stoveOn - True
+itemsInFridge - ["Tomatoes", "Lamb", "Milk"]
+numberOfStaff - 10
+sinkFull - True
+
+Methods:
+emptyFridge - itemsInFridge - ["Tomatoes"]
+turnOffBurner - stoveOn - False
+fireHeadChef - numberOfStaff - 9
+washDishes - sinkFull - False
