@@ -1,0 +1,27 @@
+Class: Menu
+
+Attributes:
+meals (array)
+prices (integer)
+birthdaySpecials (datetime)
+allergens (array)
+
+Methods
+listHappyHourSpecial (uses the prices attribute)
+discountMeal (uses the birthdaySpecials attribute)
+customerAllergyConcern (uses the allergens attribute)
+whatsInOrder (uses the meals attribute)
+
+Object: Panzano Menu
+
+Attributes:
+meals - ["steak and eggs", "spaghetti carbonara", "tiramisu"]
+Prices - $35
+birthdaySpecials - 9/01
+allergens - ["eggs", "nuts", "shellfish"]
+
+Methods:
+listHappyHour - $35
+discountMeal - 9/01
+customerAllergyConcern - ["eggs", "nuts", "shellfish"]
+whatsInOrder - ["steak and eggs", "spaghetti carbonara", "tiramisu"]
